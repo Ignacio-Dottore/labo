@@ -7,7 +7,7 @@ require("rpart")
 require("rpart.plot")
 
 #Aqui se debe poner la carpeta de la materia de SU computadora local
-setwd("X:\\gdrive\\austral2023v\\")  #Establezco el Working Directory
+setwd("C:/Users/idott/OneDrive/Escritorio/LI")  #Establezco el Working Directory
 
 #cargo el dataset
 dataset  <- fread("./datasets/dataset_pequeno.csv")

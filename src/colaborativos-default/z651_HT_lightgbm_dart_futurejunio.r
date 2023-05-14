@@ -31,13 +31,13 @@ options(error = function() {
 
 #Parametros del script
 PARAM  <- list()
-PARAM$experimento <- "HT6510_dart_futurejulio"
+PARAM$experimento <- "HT6510_dart_futurejunio"
 
-PARAM$exp_input  <- "TS6410_futurejulio"
+PARAM$exp_input  <- "TS6410_futurejunio"
 
 PARAM$lgb_crossvalidation_folds  <- 5  #En caso que se haga cross validation, se usa esta cantidad de folds
 
-PARAM$lgb_semilla  <- 328789   #cambiar por su propia semilla
+PARAM$lgb_semilla  <- 127763   #cambiar por su propia semilla
 
 
 #Hiperparametros FIJOS de  lightgbm

@@ -36,7 +36,7 @@ PARAM$exp_input  <- "HT6510"
 
 #Atencion, que se procesan 5 modelos y cada uno con 5 semillas, ajuste a SUS necesidades
 PARAM$modelos_rank  <- c( 1, 2, 5, 10, 50 )  #Que modelos quiero, segun su posicion en el ranking
-PARAM$semillas  <- c( 102191, 200177, 410551, 552581, 892237 ) #reemplazar por las propias semillas
+PARAM$semillas  <- c( 127763, 127837, 127859, 127877, 127909 ) #reemplazar por las propias semillas
 
 PARAM$kaggle$envios_desde  <-  8000
 PARAM$kaggle$envios_hasta  <- 13500
